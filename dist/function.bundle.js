@@ -16,7 +16,7 @@
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ myFunction)\n/* harmony export */ });\nfunction myFunction(){\n    console.log(\"I am a function\");\n}\n\n//# sourceURL=webpack://odin-linkedlists/./src/function.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ myFunction)\n/* harmony export */ });\nfunction myFunction(){\r\n    console.log(\"I am a function\");\r\n}\n\n//# sourceURL=webpack://odin-linkedlists/./src/function.js?");
 
 /***/ })
 
