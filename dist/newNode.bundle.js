@@ -10,13 +10,13 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/function.js":
-/*!*************************!*\
-  !*** ./src/function.js ***!
-  \*************************/
+/***/ "./src/newNode.js":
+/*!************************!*\
+  !*** ./src/newNode.js ***!
+  \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ myFunction)\n/* harmony export */ });\nfunction myFunction(){\r\n    console.log(\"I am a function\");\r\n}\n\n//# sourceURL=webpack://odin-linkedlists/./src/function.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"newNode\": () => (/* binding */ newNode)\n/* harmony export */ });\n\r\nconst newNode = (value, nextNode) => {\r\n        return {value, nextNode};\r\n};\n\n//# sourceURL=webpack://odin-linkedlists/./src/newNode.js?");
 
 /***/ })
 
@@ -60,7 +60,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	var __webpack_exports__ = {};
-/******/ 	__webpack_modules__["./src/function.js"](0, __webpack_exports__, __webpack_require__);
+/******/ 	__webpack_modules__["./src/newNode.js"](0, __webpack_exports__, __webpack_require__);
 /******/ 	
 /******/ })()
 ;

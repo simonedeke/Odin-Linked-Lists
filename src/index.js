@@ -1,24 +1,30 @@
-import './style.css';
-import myFunction from './function.js';
-//import Image from './images/checkbox.png';
-// import Data from './data.xml';
-// import Notes from './data.csv';
+import {newNode} from "./newNode.js";
+import { LinkedList } from "./LinkedList.js";
 
 
-function component() {
-    const element = document.createElement('div');
-  
-    // Lodash, currently included via a script, is required for this line to work
-    element.innerHTML = "webpack";
-    element.classList.add('hello');
-    
 
-    // const myImage = new Image();
-    // myImage.src  = Image;
-    // element.appendChild(myImage);
+const myList = LinkedList();
 
-    return element;
-  }
-  
-  document.body.appendChild(component());
-  myFunction();
+for(let i = 0; i<10; i++){
+  let node = newNode(i,null);
+  console.log(node);
+  myList.append(node);
+}
+
+console.log('Size :' + myList.size());
+console.log('ToString :' + myList.toString());
+console.log(myList.pop());
+console.log(myList.pop());
+console.log('ToString :' + myList.toString());
+console.log('inserting 9 at index 7');
+console.log(myList.insertAt(9,12));
+console.log('ToString :' + myList.toString());
+console.log('at :');
+console.log(myList.at(0));
+console.log('contains :');
+console.log(myList.contains(0));
+console.log('find :');
+console.log(myList.find(0));
+console.log('removing at index 9');
+console.log(myList.removeAt(9));
+console.log('ToString :' + myList.toString());

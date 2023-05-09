@@ -5,7 +5,8 @@ module.exports = {
   mode: 'development',
   entry: {
         index: './src/index.js',
-        function: './src/function.js',
+        newNode: './src/newNode.js',
+        LinkedList: './src/LinkedList.js',
   },
   plugins: [
     new HtmlWebpackPlugin({

@@ -20,16 +20,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _newNode_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./newNode.js */ \"./src/newNode.js\");\n/* harmony import */ var _LinkedList_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./LinkedList.js */ \"./src/LinkedList.js\");\n\r\n\r\n\r\n\r\n\r\nconst myList = (0,_LinkedList_js__WEBPACK_IMPORTED_MODULE_1__.LinkedList)();\r\n\r\nfor(let i = 0; i<10; i++){\r\n  let node = (0,_newNode_js__WEBPACK_IMPORTED_MODULE_0__.newNode)(i,null);\r\n  console.log(node);\r\n  myList.append(node);\r\n}\r\n\r\nconsole.log('Size :' + myList.size());\r\nconsole.log('ToString :' + myList.toString());\r\nconsole.log(myList.pop());\r\nconsole.log(myList.pop());\r\nconsole.log('ToString :' + myList.toString());\r\nconsole.log('inserting 9 at index 7');\r\nconsole.log(myList.insertAt(9,12));\r\nconsole.log('ToString :' + myList.toString());\r\nconsole.log('at :');\r\nconsole.log(myList.at(0));\r\nconsole.log('contains :');\r\nconsole.log(myList.contains(0));\r\nconsole.log('find :');\r\nconsole.log(myList.find(0));\r\nconsole.log('removing at index 9');\r\nconsole.log(myList.removeAt(9));\r\nconsole.log('ToString :' + myList.toString());\r\n\n\n//# sourceURL=webpack://odin-linkedlists/./src/index.js?");
-
-/***/ }),
-
 /***/ "./src/newNode.js":
 /*!************************!*\
   !*** ./src/newNode.js ***!
@@ -100,7 +90,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/LinkedList.js");
 /******/ 	
 /******/ })()
 ;
